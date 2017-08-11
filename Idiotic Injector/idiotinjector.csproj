@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6a31df67-b524-4fda-b509-3d38394da5cc</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>idiotinjector</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Form0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="idiotinjector\My\MySettings.cs" />
+    <Compile Include="idiotinjector\changelog.cs" />
+    <Compile Include="idiotinjector\credits.cs" />
+    <Compile Include="idiotinjector\feedback.cs" />
+    <Compile Include="idiotinjector\Form1.cs" />
+    <Compile Include="idiotinjector\guidelines.cs" />
+    <Compile Include="idiotinjector\hackerskin.cs" />
+    <Compile Include="idiotinjector\idioticanprofile.cs" />
+    <Compile Include="idiotinjector\info.cs" />
+    <Compile Include="idiotinjector\options.cs" />
+    <Compile Include="idiotinjector\skinmenu.cs" />
+    <Compile Include="idiotinjector\status.cs" />
+    <Compile Include="idiotinjector\weebskin.cs" />
+    <Compile Include="idiotinjector\youtubebrowser.cs" />
+    <Compile Include="_Module_{9412A529-EFD2-4B80-81CF-AE1FDAAA76EE}.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <EmbeddedResource Include="idiotinjector.changelog.resources" />
+    <EmbeddedResource Include="idiotinjector.credits.resources" />
+    <EmbeddedResource Include="idiotinjector.feedback.resources" />
+    <EmbeddedResource Include="idiotinjector.Form1.resources" />
+    <EmbeddedResource Include="idiotinjector.guidelines.resources" />
+    <EmbeddedResource Include="idiotinjector.hackerskin.resources" />
+    <EmbeddedResource Include="idiotinjector.idioticanprofile.resources" />
+    <EmbeddedResource Include="idiotinjector.info.resources" />
+    <EmbeddedResource Include="idiotinjector.Resources.resources" />
+    <EmbeddedResource Include="idiotinjector.options.resources" />
+    <EmbeddedResource Include="idiotinjector.skinmenu.resources" />
+    <EmbeddedResource Include="idiotinjector.status.resources" />
+    <EmbeddedResource Include="idiotinjector.weebskin.resources" />
+    <EmbeddedResource Include="idiotinjector.youtubebrowser.resources" />
+    <EmbeddedResource Include="idiotinjector.g.resources" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+  </ItemGroup>
+</Project>
