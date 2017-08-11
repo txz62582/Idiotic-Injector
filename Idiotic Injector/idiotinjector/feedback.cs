@@ -122,17 +122,7 @@
             IPHostEntry hostByName = Dns.GetHostByName(Dns.GetHostName());
             try
             {
-                message.From = new MailAddress("idiotinjector@gmail.com");
-                message.To.Add("idiotican@gmail.com");
-                message.Subject = "idiotinjector feedback from " + this.TextBox1.Text;
-                string[] textArray1 = new string[] { "report: ", this.TextBox2.Text, "user: ", Environment.UserName, " IP: ", hostByName.AddressList[0].ToString() };
-                message.Body = string.Concat(textArray1);
-                new SmtpClient("smtp.gmail.com") { 
-                    Port = 0x24b,
-                    EnableSsl = true,
-                    Credentials = new NetworkCredential("idiotinjector@gmail.com", "f43i8tuj4ghm")
-                }.Send(message);
-                Interaction.MsgBox("feedback sent", MsgBoxStyle.ApplicationModal, null);
+               // IP logging source deleted :) No skids here
             }
             catch (Exception exception1)
             {
